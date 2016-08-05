@@ -1052,6 +1052,34 @@ extension World {
 			
 			Level.world.repaint()
 		}
+		
+		/// when to go? AND (&&)
+		static func level3() {
+			World.setup()
+			
+			Level.world.setBlockArray([
+				[2, 2, 2, 2, 2, 2, 2, 2],
+				[2, 2, 2, 0, 2, 0, 2, 2],
+				[0, 0, 0, 0, 2, 0, 2, 2],
+				], at: Position(x: 0, y: 0))
+			
+			for x in 1...7 where x != 2 {
+				Level.world.items.append(Item(type: .diamond,
+				                              position: Position(x: x, y: 2)))
+			}
+			for x in 4...7 where x != 5 {
+				Level.world.items.append(Item(type: .diamond,
+				                              position: Position(x: x, y: 0)))
+			}
+			
+			Level.robot.position = Position(x: 0, y: 2)
+			Level.robot.direction = .east
+			
+			Level.world.items.append(Item(type: .start(direction: Level.robot.direction),
+			                              position: Level.robot.position))
+			
+			Level.world.repaint()
+		}
 	}
 	
 }

@@ -37,6 +37,6 @@ var isBlocked: Bool {
 }
 
 
-World.Chapter5.level2()
+World.Chapter5.level3()
 
 World.end(fps: 10)
