@@ -6,6 +6,7 @@ import Foundation
 
 print("Hello, World!")
 
+// Test
 
 func moveForward() {
 	Level.robot.moveForward()
