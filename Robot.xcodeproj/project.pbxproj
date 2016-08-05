@@ -36,29 +36,6 @@
 		5418A80B1D551B57003FAB63 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7DA1D551B57003FAB63 /* Wrapper.swift */; };
 		5418A8261D551D57003FAB63 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8251D551D57003FAB63 /* Vector.swift */; };
 		5418A8281D551D7F003FAB63 /* Lens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8271D551D7F003FAB63 /* Lens.swift */; };
-		5418A8411D551DD6003FAB63 /* Command.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A82A1D551DD6003FAB63 /* Command.java */; };
-		5418A8421D551DD6003FAB63 /* CommandDistributor.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A82B1D551DD6003FAB63 /* CommandDistributor.java */; };
-		5418A8431D551DD6003FAB63 /* CommandInterpreter.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A82C1D551DD6003FAB63 /* CommandInterpreter.java */; };
-		5418A8441D551DD6003FAB63 /* CommandReader.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A82D1D551DD6003FAB63 /* CommandReader.java */; };
-		5418A8451D551DD6003FAB63 /* CommandSender.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A82E1D551DD6003FAB63 /* CommandSender.java */; };
-		5418A8461D551DD6003FAB63 /* Helper.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A82F1D551DD6003FAB63 /* Helper.java */; };
-		5418A8471D551DD6003FAB63 /* ObjectConvertible.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8301D551DD6003FAB63 /* ObjectConvertible.java */; };
-		5418A8481D551DD6003FAB63 /* Parser.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8311D551DD6003FAB63 /* Parser.java */; };
-		5418A8491D551DD6003FAB63 /* ParserTest.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8321D551DD6003FAB63 /* ParserTest.java */; };
-		5418A84A1D551DD6003FAB63 /* Protocol.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8331D551DD6003FAB63 /* Protocol.java */; };
-		5418A84B1D551DD6003FAB63 /* TestCommand.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8341D551DD6003FAB63 /* TestCommand.java */; };
-		5418A84C1D551DD6003FAB63 /* Wrapper.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8351D551DD6003FAB63 /* Wrapper.java */; };
-		5418A84D1D551DD6003FAB63 /* Drawable.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8361D551DD6003FAB63 /* Drawable.java */; };
-		5418A84E1D551DD6003FAB63 /* DrawableObject.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8371D551DD6003FAB63 /* DrawableObject.java */; };
-		5418A84F1D551DD6003FAB63 /* DrawingServer.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8381D551DD6003FAB63 /* DrawingServer.java */; };
-		5418A8501D551DD6003FAB63 /* Line.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8391D551DD6003FAB63 /* Line.java */; };
-		5418A8511D551DD6003FAB63 /* MyColor.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A83A1D551DD6003FAB63 /* MyColor.java */; };
-		5418A8521D551DD6003FAB63 /* MyImage.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A83B1D551DD6003FAB63 /* MyImage.java */; };
-		5418A8531D551DD6003FAB63 /* Polygon.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A83C1D551DD6003FAB63 /* Polygon.java */; };
-		5418A8541D551DD6003FAB63 /* Rectangle.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A83D1D551DD6003FAB63 /* Rectangle.java */; };
-		5418A8551D551DD6003FAB63 /* Vector.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A83E1D551DD6003FAB63 /* Vector.java */; };
-		5418A8561D551DD6003FAB63 /* World.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A83F1D551DD6003FAB63 /* World.java */; };
-		5418A8571D551DD6003FAB63 /* WorldDrawing.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8401D551DD6003FAB63 /* WorldDrawing.java */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -363,57 +340,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				5418A7B71D5519B1003FAB63 /* main.swift in Sources */,
-				5418A84D1D551DD6003FAB63 /* Drawable.java in Sources */,
 				5418A7FF1D551B57003FAB63 /* Errors.swift in Sources */,
 				5418A8061D551B57003FAB63 /* ObjectConvertible.swift in Sources */,
 				5418A7F91D551B57003FAB63 /* Vector2D.swift in Sources */,
-				5418A8521D551DD6003FAB63 /* MyImage.java in Sources */,
 				5418A7F31D551B57003FAB63 /* TextureModel.swift in Sources */,
 				5418A7FE1D551B57003FAB63 /* Drawable.swift in Sources */,
 				5418A7FD1D551B57003FAB63 /* Polygon.swift in Sources */,
-				5418A8571D551DD6003FAB63 /* WorldDrawing.java in Sources */,
 				5418A7FC1D551B57003FAB63 /* Rectangle.swift in Sources */,
 				5418A8081D551B57003FAB63 /* ParserTest.swift in Sources */,
 				5418A8001D551B57003FAB63 /* Command.swift in Sources */,
-				5418A8491D551DD6003FAB63 /* ParserTest.java in Sources */,
-				5418A8451D551DD6003FAB63 /* CommandSender.java in Sources */,
-				5418A84F1D551DD6003FAB63 /* DrawingServer.java in Sources */,
 				5418A8051D551B57003FAB63 /* Helper.swift in Sources */,
-				5418A8481D551DD6003FAB63 /* Parser.java in Sources */,
-				5418A8411D551DD6003FAB63 /* Command.java in Sources */,
 				5418A80B1D551B57003FAB63 /* Wrapper.swift in Sources */,
 				5418A7FA1D551B57003FAB63 /* Color.swift in Sources */,
-				5418A8531D551DD6003FAB63 /* Polygon.java in Sources */,
-				5418A84C1D551DD6003FAB63 /* Wrapper.java in Sources */,
 				5418A7F71D551B57003FAB63 /* Robot.swift in Sources */,
 				5418A8281D551D7F003FAB63 /* Lens.swift in Sources */,
-				5418A8541D551DD6003FAB63 /* Rectangle.java in Sources */,
 				5418A80A1D551B57003FAB63 /* TestCommand.swift in Sources */,
-				5418A84E1D551DD6003FAB63 /* DrawableObject.java in Sources */,
 				5418A7F41D551B57003FAB63 /* Position.swift in Sources */,
 				5418A8091D551B57003FAB63 /* Protocol.swift in Sources */,
 				5418A7F51D551B57003FAB63 /* Direction.swift in Sources */,
-				5418A8501D551DD6003FAB63 /* Line.java in Sources */,
 				5418A8011D551B57003FAB63 /* CommandDistributor.swift in Sources */,
-				5418A8551D551DD6003FAB63 /* Vector.java in Sources */,
-				5418A8511D551DD6003FAB63 /* MyColor.java in Sources */,
 				5418A7F61D551B57003FAB63 /* Item.swift in Sources */,
 				5418A8041D551B57003FAB63 /* CommandSender.swift in Sources */,
 				5418A8021D551B57003FAB63 /* CommandInterpreter.swift in Sources */,
-				5418A8421D551DD6003FAB63 /* CommandDistributor.java in Sources */,
 				5418A7F81D551B57003FAB63 /* World.swift in Sources */,
-				5418A8431D551DD6003FAB63 /* CommandInterpreter.java in Sources */,
-				5418A8461D551DD6003FAB63 /* Helper.java in Sources */,
-				5418A84B1D551DD6003FAB63 /* TestCommand.java in Sources */,
 				5418A8261D551D57003FAB63 /* Vector.swift in Sources */,
-				5418A8471D551DD6003FAB63 /* ObjectConvertible.java in Sources */,
-				5418A84A1D551DD6003FAB63 /* Protocol.java in Sources */,
 				5418A8031D551B57003FAB63 /* CommandReader.swift in Sources */,
 				5418A7FB1D551B57003FAB63 /* Line.swift in Sources */,
-				5418A8561D551DD6003FAB63 /* World.java in Sources */,
 				5418A8071D551B57003FAB63 /* Parser.swift in Sources */,
 				5418A7F21D551B57003FAB63 /* Texture.swift in Sources */,
-				5418A8441D551DD6003FAB63 /* CommandReader.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +524,7 @@
 				5418A7BC1D5519B1003FAB63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5418A7BE1D5519EA003FAB63 /* Build configuration list for PBXLegacyTarget "WorldDrawing" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +533,7 @@
 				5418A7C01D5519EA003FAB63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
