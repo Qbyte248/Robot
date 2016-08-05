@@ -362,7 +362,7 @@
 			}
 			return result + Parser.dictEnd;
 		}
-		fatalError("object: \(object.dynamicType) should be convertible to String, Array or Dictionary")
+		fatalError("object: \(type(of: object)) should be convertible to String, Array or Dictionary")
 	}
 	
 	/**

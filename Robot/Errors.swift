@@ -27,7 +27,6 @@ struct IOException: Error {
 }
 
 import Foundation
-public typealias OutputStream = NSOutputStream
 
 public enum Object {
 	case string(String)
