@@ -6,7 +6,7 @@ import Robot.Java.Helper.ObjectConvertible;
 import Robot.Java.Helper.Helper;
 
 // Graphics
-import java.awt.Color
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.geom.Line2D;
