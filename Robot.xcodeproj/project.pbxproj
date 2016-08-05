@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5418A7B71D5519B1003FAB63 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7B61D5519B1003FAB63 /* main.swift */; };
+		5418A7F21D551B57003FAB63 /* Texture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7C11D551B57003FAB63 /* Texture.swift */; };
+		5418A7F31D551B57003FAB63 /* TextureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7C21D551B57003FAB63 /* TextureModel.swift */; };
+		5418A7F41D551B57003FAB63 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7C31D551B57003FAB63 /* Position.swift */; };
+		5418A7F51D551B57003FAB63 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7C41D551B57003FAB63 /* Direction.swift */; };
+		5418A7F61D551B57003FAB63 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7C51D551B57003FAB63 /* Item.swift */; };
+		5418A7F71D551B57003FAB63 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7C61D551B57003FAB63 /* Robot.swift */; };
+		5418A7F81D551B57003FAB63 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7C71D551B57003FAB63 /* World.swift */; };
+		5418A7F91D551B57003FAB63 /* Vector2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7C81D551B57003FAB63 /* Vector2D.swift */; };
+		5418A7FA1D551B57003FAB63 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7C91D551B57003FAB63 /* Color.swift */; };
+		5418A7FB1D551B57003FAB63 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7CA1D551B57003FAB63 /* Line.swift */; };
+		5418A7FC1D551B57003FAB63 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7CB1D551B57003FAB63 /* Rectangle.swift */; };
+		5418A7FD1D551B57003FAB63 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7CC1D551B57003FAB63 /* Polygon.swift */; };
+		5418A7FE1D551B57003FAB63 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7CD1D551B57003FAB63 /* Drawable.swift */; };
+		5418A7FF1D551B57003FAB63 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7CE1D551B57003FAB63 /* Errors.swift */; };
+		5418A8001D551B57003FAB63 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7CF1D551B57003FAB63 /* Command.swift */; };
+		5418A8011D551B57003FAB63 /* CommandDistributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7D01D551B57003FAB63 /* CommandDistributor.swift */; };
+		5418A8021D551B57003FAB63 /* CommandInterpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7D11D551B57003FAB63 /* CommandInterpreter.swift */; };
+		5418A8031D551B57003FAB63 /* CommandReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7D21D551B57003FAB63 /* CommandReader.swift */; };
+		5418A8041D551B57003FAB63 /* CommandSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7D31D551B57003FAB63 /* CommandSender.swift */; };
+		5418A8051D551B57003FAB63 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7D41D551B57003FAB63 /* Helper.swift */; };
+		5418A8061D551B57003FAB63 /* ObjectConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7D51D551B57003FAB63 /* ObjectConvertible.swift */; };
+		5418A8071D551B57003FAB63 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7D61D551B57003FAB63 /* Parser.swift */; };
+		5418A8081D551B57003FAB63 /* ParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7D71D551B57003FAB63 /* ParserTest.swift */; };
+		5418A8091D551B57003FAB63 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7D81D551B57003FAB63 /* Protocol.swift */; };
+		5418A80A1D551B57003FAB63 /* TestCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7D91D551B57003FAB63 /* TestCommand.swift */; };
+		5418A80B1D551B57003FAB63 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7DA1D551B57003FAB63 /* Wrapper.swift */; };
+		5418A8261D551D57003FAB63 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8251D551D57003FAB63 /* Vector.swift */; };
+		5418A8281D551D7F003FAB63 /* Lens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8271D551D7F003FAB63 /* Lens.swift */; };
+		5418A8411D551DD6003FAB63 /* Command.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A82A1D551DD6003FAB63 /* Command.java */; };
+		5418A8421D551DD6003FAB63 /* CommandDistributor.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A82B1D551DD6003FAB63 /* CommandDistributor.java */; };
+		5418A8431D551DD6003FAB63 /* CommandInterpreter.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A82C1D551DD6003FAB63 /* CommandInterpreter.java */; };
+		5418A8441D551DD6003FAB63 /* CommandReader.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A82D1D551DD6003FAB63 /* CommandReader.java */; };
+		5418A8451D551DD6003FAB63 /* CommandSender.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A82E1D551DD6003FAB63 /* CommandSender.java */; };
+		5418A8461D551DD6003FAB63 /* Helper.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A82F1D551DD6003FAB63 /* Helper.java */; };
+		5418A8471D551DD6003FAB63 /* ObjectConvertible.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8301D551DD6003FAB63 /* ObjectConvertible.java */; };
+		5418A8481D551DD6003FAB63 /* Parser.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8311D551DD6003FAB63 /* Parser.java */; };
+		5418A8491D551DD6003FAB63 /* ParserTest.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8321D551DD6003FAB63 /* ParserTest.java */; };
+		5418A84A1D551DD6003FAB63 /* Protocol.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8331D551DD6003FAB63 /* Protocol.java */; };
+		5418A84B1D551DD6003FAB63 /* TestCommand.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8341D551DD6003FAB63 /* TestCommand.java */; };
+		5418A84C1D551DD6003FAB63 /* Wrapper.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8351D551DD6003FAB63 /* Wrapper.java */; };
+		5418A84D1D551DD6003FAB63 /* Drawable.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8361D551DD6003FAB63 /* Drawable.java */; };
+		5418A84E1D551DD6003FAB63 /* DrawableObject.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8371D551DD6003FAB63 /* DrawableObject.java */; };
+		5418A84F1D551DD6003FAB63 /* DrawingServer.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8381D551DD6003FAB63 /* DrawingServer.java */; };
+		5418A8501D551DD6003FAB63 /* Line.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8391D551DD6003FAB63 /* Line.java */; };
+		5418A8511D551DD6003FAB63 /* MyColor.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A83A1D551DD6003FAB63 /* MyColor.java */; };
+		5418A8521D551DD6003FAB63 /* MyImage.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A83B1D551DD6003FAB63 /* MyImage.java */; };
+		5418A8531D551DD6003FAB63 /* Polygon.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A83C1D551DD6003FAB63 /* Polygon.java */; };
+		5418A8541D551DD6003FAB63 /* Rectangle.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A83D1D551DD6003FAB63 /* Rectangle.java */; };
+		5418A8551D551DD6003FAB63 /* Vector.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A83E1D551DD6003FAB63 /* Vector.java */; };
+		5418A8561D551DD6003FAB63 /* World.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A83F1D551DD6003FAB63 /* World.java */; };
+		5418A8571D551DD6003FAB63 /* WorldDrawing.java in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8401D551DD6003FAB63 /* WorldDrawing.java */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5418A7B11D5519B1003FAB63 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5418A7B31D5519B1003FAB63 /* Robot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Robot; sourceTree = BUILT_PRODUCTS_DIR; };
+		5418A7B61D5519B1003FAB63 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5418A7C11D551B57003FAB63 /* Texture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Texture.swift; sourceTree = "<group>"; };
+		5418A7C21D551B57003FAB63 /* TextureModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureModel.swift; sourceTree = "<group>"; };
+		5418A7C31D551B57003FAB63 /* Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		5418A7C41D551B57003FAB63 /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		5418A7C51D551B57003FAB63 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5418A7C61D551B57003FAB63 /* Robot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
+		5418A7C71D551B57003FAB63 /* World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		5418A7C81D551B57003FAB63 /* Vector2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector2D.swift; sourceTree = "<group>"; };
+		5418A7C91D551B57003FAB63 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5418A7CA1D551B57003FAB63 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		5418A7CB1D551B57003FAB63 /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		5418A7CC1D551B57003FAB63 /* Polygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+		5418A7CD1D551B57003FAB63 /* Drawable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
+		5418A7CE1D551B57003FAB63 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		5418A7CF1D551B57003FAB63 /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		5418A7D01D551B57003FAB63 /* CommandDistributor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandDistributor.swift; sourceTree = "<group>"; };
+		5418A7D11D551B57003FAB63 /* CommandInterpreter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandInterpreter.swift; sourceTree = "<group>"; };
+		5418A7D21D551B57003FAB63 /* CommandReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandReader.swift; sourceTree = "<group>"; };
+		5418A7D31D551B57003FAB63 /* CommandSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandSender.swift; sourceTree = "<group>"; };
+		5418A7D41D551B57003FAB63 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		5418A7D51D551B57003FAB63 /* ObjectConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectConvertible.swift; sourceTree = "<group>"; };
+		5418A7D61D551B57003FAB63 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		5418A7D71D551B57003FAB63 /* ParserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParserTest.swift; sourceTree = "<group>"; };
+		5418A7D81D551B57003FAB63 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		5418A7D91D551B57003FAB63 /* TestCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCommand.swift; sourceTree = "<group>"; };
+		5418A7DA1D551B57003FAB63 /* Wrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
+		5418A8251D551D57003FAB63 /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		5418A8271D551D7F003FAB63 /* Lens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lens.swift; sourceTree = "<group>"; };
+		5418A82A1D551DD6003FAB63 /* Command.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Command.java; sourceTree = "<group>"; };
+		5418A82B1D551DD6003FAB63 /* CommandDistributor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CommandDistributor.java; sourceTree = "<group>"; };
+		5418A82C1D551DD6003FAB63 /* CommandInterpreter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CommandInterpreter.java; sourceTree = "<group>"; };
+		5418A82D1D551DD6003FAB63 /* CommandReader.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CommandReader.java; sourceTree = "<group>"; };
+		5418A82E1D551DD6003FAB63 /* CommandSender.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CommandSender.java; sourceTree = "<group>"; };
+		5418A82F1D551DD6003FAB63 /* Helper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Helper.java; sourceTree = "<group>"; };
+		5418A8301D551DD6003FAB63 /* ObjectConvertible.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ObjectConvertible.java; sourceTree = "<group>"; };
+		5418A8311D551DD6003FAB63 /* Parser.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Parser.java; sourceTree = "<group>"; };
+		5418A8321D551DD6003FAB63 /* ParserTest.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ParserTest.java; sourceTree = "<group>"; };
+		5418A8331D551DD6003FAB63 /* Protocol.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Protocol.java; sourceTree = "<group>"; };
+		5418A8341D551DD6003FAB63 /* TestCommand.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TestCommand.java; sourceTree = "<group>"; };
+		5418A8351D551DD6003FAB63 /* Wrapper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Wrapper.java; sourceTree = "<group>"; };
+		5418A8361D551DD6003FAB63 /* Drawable.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Drawable.java; path = Java/Drawable.java; sourceTree = "<group>"; };
+		5418A8371D551DD6003FAB63 /* DrawableObject.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = DrawableObject.java; path = Java/DrawableObject.java; sourceTree = "<group>"; };
+		5418A8381D551DD6003FAB63 /* DrawingServer.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = DrawingServer.java; path = Java/DrawingServer.java; sourceTree = "<group>"; };
+		5418A8391D551DD6003FAB63 /* Line.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Line.java; path = Java/Line.java; sourceTree = "<group>"; };
+		5418A83A1D551DD6003FAB63 /* MyColor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = MyColor.java; path = Java/MyColor.java; sourceTree = "<group>"; };
+		5418A83B1D551DD6003FAB63 /* MyImage.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = MyImage.java; path = Java/MyImage.java; sourceTree = "<group>"; };
+		5418A83C1D551DD6003FAB63 /* Polygon.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Polygon.java; path = Java/Polygon.java; sourceTree = "<group>"; };
+		5418A83D1D551DD6003FAB63 /* Rectangle.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Rectangle.java; path = Java/Rectangle.java; sourceTree = "<group>"; };
+		5418A83E1D551DD6003FAB63 /* Vector.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Vector.java; path = Java/Vector.java; sourceTree = "<group>"; };
+		5418A83F1D551DD6003FAB63 /* World.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = World.java; path = Java/World.java; sourceTree = "<group>"; };
+		5418A8401D551DD6003FAB63 /* WorldDrawing.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = WorldDrawing.java; path = Java/WorldDrawing.java; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5418A7B01D5519B1003FAB63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5418A7AA1D5519B1003FAB63 = {
+			isa = PBXGroup;
+			children = (
+				5418A7B51D5519B1003FAB63 /* Robot */,
+				5418A7B41D5519B1003FAB63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5418A7B41D5519B1003FAB63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5418A7B31D5519B1003FAB63 /* Robot */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5418A7B51D5519B1003FAB63 /* Robot */ = {
+			isa = PBXGroup;
+			children = (
+				5418A7B61D5519B1003FAB63 /* main.swift */,
+				5418A8231D551B70003FAB63 /* Swift */,
+				5418A8241D551B7A003FAB63 /* Java */,
+			);
+			path = Robot;
+			sourceTree = "<group>";
+		};
+		5418A8231D551B70003FAB63 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				5418A85A1D552006003FAB63 /* Robot */,
+				5418A8591D551FEC003FAB63 /* Drawing */,
+				5418A8581D551FAC003FAB63 /* Helper */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		5418A8241D551B7A003FAB63 /* Java */ = {
+			isa = PBXGroup;
+			children = (
+				5418A85B1D55204F003FAB63 /* Robot */,
+				5418A85C1D552056003FAB63 /* Drawing */,
+				5418A8291D551DD6003FAB63 /* Helper */,
+			);
+			name = Java;
+			sourceTree = "<group>";
+		};
+		5418A8291D551DD6003FAB63 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5418A82A1D551DD6003FAB63 /* Command.java */,
+				5418A82B1D551DD6003FAB63 /* CommandDistributor.java */,
+				5418A82C1D551DD6003FAB63 /* CommandInterpreter.java */,
+				5418A82D1D551DD6003FAB63 /* CommandReader.java */,
+				5418A82E1D551DD6003FAB63 /* CommandSender.java */,
+				5418A82F1D551DD6003FAB63 /* Helper.java */,
+				5418A8301D551DD6003FAB63 /* ObjectConvertible.java */,
+				5418A8311D551DD6003FAB63 /* Parser.java */,
+				5418A8321D551DD6003FAB63 /* ParserTest.java */,
+				5418A8331D551DD6003FAB63 /* Protocol.java */,
+				5418A8341D551DD6003FAB63 /* TestCommand.java */,
+				5418A8351D551DD6003FAB63 /* Wrapper.java */,
+			);
+			name = Helper;
+			path = Java/Helper;
+			sourceTree = "<group>";
+		};
+		5418A8581D551FAC003FAB63 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5418A8251D551D57003FAB63 /* Vector.swift */,
+				5418A8271D551D7F003FAB63 /* Lens.swift */,
+				5418A7CE1D551B57003FAB63 /* Errors.swift */,
+				5418A7CF1D551B57003FAB63 /* Command.swift */,
+				5418A7D01D551B57003FAB63 /* CommandDistributor.swift */,
+				5418A7D11D551B57003FAB63 /* CommandInterpreter.swift */,
+				5418A7D21D551B57003FAB63 /* CommandReader.swift */,
+				5418A7D31D551B57003FAB63 /* CommandSender.swift */,
+				5418A7D41D551B57003FAB63 /* Helper.swift */,
+				5418A7D51D551B57003FAB63 /* ObjectConvertible.swift */,
+				5418A7D61D551B57003FAB63 /* Parser.swift */,
+				5418A7D71D551B57003FAB63 /* ParserTest.swift */,
+				5418A7D81D551B57003FAB63 /* Protocol.swift */,
+				5418A7D91D551B57003FAB63 /* TestCommand.swift */,
+				5418A7DA1D551B57003FAB63 /* Wrapper.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		5418A8591D551FEC003FAB63 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				5418A7C81D551B57003FAB63 /* Vector2D.swift */,
+				5418A7C91D551B57003FAB63 /* Color.swift */,
+				5418A7CA1D551B57003FAB63 /* Line.swift */,
+				5418A7CB1D551B57003FAB63 /* Rectangle.swift */,
+				5418A7CC1D551B57003FAB63 /* Polygon.swift */,
+				5418A7CD1D551B57003FAB63 /* Drawable.swift */,
+			);
+			name = Drawing;
+			sourceTree = "<group>";
+		};
+		5418A85A1D552006003FAB63 /* Robot */ = {
+			isa = PBXGroup;
+			children = (
+				5418A7C11D551B57003FAB63 /* Texture.swift */,
+				5418A7C21D551B57003FAB63 /* TextureModel.swift */,
+				5418A7C31D551B57003FAB63 /* Position.swift */,
+				5418A7C41D551B57003FAB63 /* Direction.swift */,
+				5418A7C51D551B57003FAB63 /* Item.swift */,
+				5418A7C61D551B57003FAB63 /* Robot.swift */,
+				5418A7C71D551B57003FAB63 /* World.swift */,
+			);
+			name = Robot;
+			sourceTree = "<group>";
+		};
+		5418A85B1D55204F003FAB63 /* Robot */ = {
+			isa = PBXGroup;
+			children = (
+				5418A83F1D551DD6003FAB63 /* World.java */,
+				5418A8401D551DD6003FAB63 /* WorldDrawing.java */,
+			);
+			name = Robot;
+			sourceTree = "<group>";
+		};
+		5418A85C1D552056003FAB63 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				5418A8361D551DD6003FAB63 /* Drawable.java */,
+				5418A8371D551DD6003FAB63 /* DrawableObject.java */,
+				5418A8381D551DD6003FAB63 /* DrawingServer.java */,
+				5418A8391D551DD6003FAB63 /* Line.java */,
+				5418A83A1D551DD6003FAB63 /* MyColor.java */,
+				5418A83B1D551DD6003FAB63 /* MyImage.java */,
+				5418A83C1D551DD6003FAB63 /* Polygon.java */,
+				5418A83D1D551DD6003FAB63 /* Rectangle.java */,
+				5418A83E1D551DD6003FAB63 /* Vector.java */,
+			);
+			name = Drawing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		5418A7BD1D5519EA003FAB63 /* WorldDrawing */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) Robot/Java/$(TARGETNAME).java";
+			buildConfigurationList = 5418A7BE1D5519EA003FAB63 /* Build configuration list for PBXLegacyTarget "WorldDrawing" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/javac;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = WorldDrawing;
+			passBuildSettingsInEnvironment = 1;
+			productName = RobotJava;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		5418A7B21D5519B1003FAB63 /* Robot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5418A7BA1D5519B1003FAB63 /* Build configuration list for PBXNativeTarget "Robot" */;
+			buildPhases = (
+				5418A7AF1D5519B1003FAB63 /* Sources */,
+				5418A7B01D5519B1003FAB63 /* Frameworks */,
+				5418A7B11D5519B1003FAB63 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Robot;
+			productName = Robot;
+			productReference = 5418A7B31D5519B1003FAB63 /* Robot */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5418A7AB1D5519B1003FAB63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MaHue;
+				TargetAttributes = {
+					5418A7B21D5519B1003FAB63 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EBKJEHVQXB;
+						ProvisioningStyle = Automatic;
+					};
+					5418A7BD1D5519EA003FAB63 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EBKJEHVQXB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5418A7AE1D5519B1003FAB63 /* Build configuration list for PBXProject "Robot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5418A7AA1D5519B1003FAB63;
+			productRefGroup = 5418A7B41D5519B1003FAB63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5418A7B21D5519B1003FAB63 /* Robot */,
+				5418A7BD1D5519EA003FAB63 /* WorldDrawing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5418A7AF1D5519B1003FAB63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5418A7B71D5519B1003FAB63 /* main.swift in Sources */,
+				5418A84D1D551DD6003FAB63 /* Drawable.java in Sources */,
+				5418A7FF1D551B57003FAB63 /* Errors.swift in Sources */,
+				5418A8061D551B57003FAB63 /* ObjectConvertible.swift in Sources */,
+				5418A7F91D551B57003FAB63 /* Vector2D.swift in Sources */,
+				5418A8521D551DD6003FAB63 /* MyImage.java in Sources */,
+				5418A7F31D551B57003FAB63 /* TextureModel.swift in Sources */,
+				5418A7FE1D551B57003FAB63 /* Drawable.swift in Sources */,
+				5418A7FD1D551B57003FAB63 /* Polygon.swift in Sources */,
+				5418A8571D551DD6003FAB63 /* WorldDrawing.java in Sources */,
+				5418A7FC1D551B57003FAB63 /* Rectangle.swift in Sources */,
+				5418A8081D551B57003FAB63 /* ParserTest.swift in Sources */,
+				5418A8001D551B57003FAB63 /* Command.swift in Sources */,
+				5418A8491D551DD6003FAB63 /* ParserTest.java in Sources */,
+				5418A8451D551DD6003FAB63 /* CommandSender.java in Sources */,
+				5418A84F1D551DD6003FAB63 /* DrawingServer.java in Sources */,
+				5418A8051D551B57003FAB63 /* Helper.swift in Sources */,
+				5418A8481D551DD6003FAB63 /* Parser.java in Sources */,
+				5418A8411D551DD6003FAB63 /* Command.java in Sources */,
+				5418A80B1D551B57003FAB63 /* Wrapper.swift in Sources */,
+				5418A7FA1D551B57003FAB63 /* Color.swift in Sources */,
+				5418A8531D551DD6003FAB63 /* Polygon.java in Sources */,
+				5418A84C1D551DD6003FAB63 /* Wrapper.java in Sources */,
+				5418A7F71D551B57003FAB63 /* Robot.swift in Sources */,
+				5418A8281D551D7F003FAB63 /* Lens.swift in Sources */,
+				5418A8541D551DD6003FAB63 /* Rectangle.java in Sources */,
+				5418A80A1D551B57003FAB63 /* TestCommand.swift in Sources */,
+				5418A84E1D551DD6003FAB63 /* DrawableObject.java in Sources */,
+				5418A7F41D551B57003FAB63 /* Position.swift in Sources */,
+				5418A8091D551B57003FAB63 /* Protocol.swift in Sources */,
+				5418A7F51D551B57003FAB63 /* Direction.swift in Sources */,
+				5418A8501D551DD6003FAB63 /* Line.java in Sources */,
+				5418A8011D551B57003FAB63 /* CommandDistributor.swift in Sources */,
+				5418A8551D551DD6003FAB63 /* Vector.java in Sources */,
+				5418A8511D551DD6003FAB63 /* MyColor.java in Sources */,
+				5418A7F61D551B57003FAB63 /* Item.swift in Sources */,
+				5418A8041D551B57003FAB63 /* CommandSender.swift in Sources */,
+				5418A8021D551B57003FAB63 /* CommandInterpreter.swift in Sources */,
+				5418A8421D551DD6003FAB63 /* CommandDistributor.java in Sources */,
+				5418A7F81D551B57003FAB63 /* World.swift in Sources */,
+				5418A8431D551DD6003FAB63 /* CommandInterpreter.java in Sources */,
+				5418A8461D551DD6003FAB63 /* Helper.java in Sources */,
+				5418A84B1D551DD6003FAB63 /* TestCommand.java in Sources */,
+				5418A8261D551D57003FAB63 /* Vector.swift in Sources */,
+				5418A8471D551DD6003FAB63 /* ObjectConvertible.java in Sources */,
+				5418A84A1D551DD6003FAB63 /* Protocol.java in Sources */,
+				5418A8031D551B57003FAB63 /* CommandReader.swift in Sources */,
+				5418A7FB1D551B57003FAB63 /* Line.swift in Sources */,
+				5418A8561D551DD6003FAB63 /* World.java in Sources */,
+				5418A8071D551B57003FAB63 /* Parser.swift in Sources */,
+				5418A7F21D551B57003FAB63 /* Texture.swift in Sources */,
+				5418A8441D551DD6003FAB63 /* CommandReader.java in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5418A7B81D5519B1003FAB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5418A7B91D5519B1003FAB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5418A7BB1D5519B1003FAB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EBKJEHVQXB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5418A7BC1D5519B1003FAB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EBKJEHVQXB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5418A7BF1D5519EA003FAB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = EBKJEHVQXB;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5418A7C01D5519EA003FAB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = EBKJEHVQXB;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5418A7AE1D5519B1003FAB63 /* Build configuration list for PBXProject "Robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5418A7B81D5519B1003FAB63 /* Debug */,
+				5418A7B91D5519B1003FAB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5418A7BA1D5519B1003FAB63 /* Build configuration list for PBXNativeTarget "Robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5418A7BB1D5519B1003FAB63 /* Debug */,
+				5418A7BC1D5519B1003FAB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5418A7BE1D5519EA003FAB63 /* Build configuration list for PBXLegacyTarget "WorldDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5418A7BF1D5519EA003FAB63 /* Debug */,
+				5418A7C01D5519EA003FAB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5418A7AB1D5519B1003FAB63 /* Project object */;
+}
