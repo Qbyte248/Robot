@@ -4,7 +4,8 @@ import Foundation
  * Reads from a socket and passes interpreted Commands to one CommandInterpreter
  */
 public class CommandReader {
-
+	/*
+	
 	/**
 	 * @param socket
 	 *            from which can be read commands through an InputStream.
@@ -38,4 +39,6 @@ public class CommandReader {
 			
 		}*/
 	}
+	
+	*/
 }
