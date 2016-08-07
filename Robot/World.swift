@@ -252,10 +252,10 @@ extension World {
 	
 	static func setup() {
 		
-		InputStream.getStreamsToHost(withName: "localhost",
-		                              port: 1234,
-		                              inputStream: nil,
-		                              outputStream: &Stream.output)
+		InputStream.getStreamsToHostWithName("localhost",
+		                                     port: 1234,
+		                                     inputStream: nil,
+		                                     outputStream: &Stream.output)
 		
 		Stream.output!.open()
 		
