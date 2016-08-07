@@ -239,10 +239,7 @@ extension World {
 	static func end(fps: Double = 1.0) {
 		// TODO: Send message to server ("Congrats", "LOOSER")
 		
-		print(Level.world.halfBlocks)
-		print("World.end")
-		
-		print(Stream.output)
+		print("start")
 		
 		let frameTime = 1.0 / fps
 		var runCommand = try! Command(Protocol.Client.run)
@@ -265,7 +262,6 @@ extension World {
 		Level.world = World(width: 10, depth: 10, outputStream: Stream.output!)
 		Level.robot = Robot(position: Position(x: 0, y: 0), direction: .north, world: Level.world)
 		
-		print("here")
 	}
 	
 	// FIXME: remove first world image from Java Server

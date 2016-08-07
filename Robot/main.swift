@@ -4,8 +4,6 @@
 
 import Foundation
 
-print("Hello, World!")
-
 // Test 2
 
 func moveForward() {
