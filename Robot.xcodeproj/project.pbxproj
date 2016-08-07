@@ -36,6 +36,7 @@
 		5418A80B1D551B57003FAB63 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A7DA1D551B57003FAB63 /* Wrapper.swift */; };
 		5418A8261D551D57003FAB63 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8251D551D57003FAB63 /* Vector.swift */; };
 		5418A8281D551D7F003FAB63 /* Lens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5418A8271D551D7F003FAB63 /* Lens.swift */; };
+		541D0D111D573DCE00F2E295 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541D0D101D573DCE00F2E295 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -104,6 +105,7 @@
 		5418A83E1D551DD6003FAB63 /* Vector.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Vector.java; path = Java/Vector.java; sourceTree = "<group>"; };
 		5418A83F1D551DD6003FAB63 /* World.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = World.java; path = Java/World.java; sourceTree = "<group>"; };
 		5418A8401D551DD6003FAB63 /* WorldDrawing.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = WorldDrawing.java; path = Java/WorldDrawing.java; sourceTree = "<group>"; };
+		541D0D101D573DCE00F2E295 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		5418A7AA1D5519B1003FAB63 = {
 			isa = PBXGroup;
 			children = (
+				541D0D101D573DCE00F2E295 /* Package.swift */,
 				5418A7B51D5519B1003FAB63 /* Robot */,
 				5418A7B41D5519B1003FAB63 /* Products */,
 			);
@@ -345,6 +348,7 @@
 				5418A7F91D551B57003FAB63 /* Vector2D.swift in Sources */,
 				5418A7F31D551B57003FAB63 /* TextureModel.swift in Sources */,
 				5418A7FE1D551B57003FAB63 /* Drawable.swift in Sources */,
+				541D0D111D573DCE00F2E295 /* Package.swift in Sources */,
 				5418A7FD1D551B57003FAB63 /* Polygon.swift in Sources */,
 				5418A7FC1D551B57003FAB63 /* Rectangle.swift in Sources */,
 				5418A8081D551B57003FAB63 /* ParserTest.swift in Sources */,
