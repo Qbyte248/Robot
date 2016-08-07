@@ -29,6 +29,10 @@ struct IOException: Error {
 import Foundation
 public typealias OutputStream = NSOutputStream
 
+public func arc4random() -> Int {
+	return Int(random() * 100000000)
+}
+
 public enum Object {
 	case string(String)
 	case array([Object])
